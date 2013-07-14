@@ -16,11 +16,11 @@ indicating how many repeated runs were compressed. Examples:
     AAAA --> AA2
 - Only one digit may be used at a time, so if the run is quite long,
 then you must use multiple character/number pairs
-    AAAAAAAAAA --> AA8
-    AAAAAAAAAAA --> AA9
-    AAAAAAAAAAAA --> AA9A
-    AAAAAAAAAAAAA --> AA9AA0
-    AAAAAAAAAAAAAA --> AA9AA1
+    - AAAAAAAAAA --> AA8
+    - AAAAAAAAAAA --> AA9
+    - AAAAAAAAAAAA --> AA9A
+    - AAAAAAAAAAAAA --> AA9AA0
+    - AAAAAAAAAAAAAA --> AA9AA1
 
 The decompression algorithm simply reverses this process.
 
